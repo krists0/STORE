@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+.main {
+    padding: 10px;
+}
+.cartIcon {
+    position: fixed;
+    top: 10px;
+    right: 140px;
+    cursor:pointer;
+    z-index: 100;
+    background: yellow;
+}
+aside {
+    width:400px;
+    margin : 20px;
+}
+.itemCart {
+    display:flex;
+    justify-content: space-between;
+    
+}
+.itemCart img{
+    max-width: 29%;
+    object-fit: cover;
+    margin-left: 40px;
+}
+.itemCart div{
+    flex : 1;
+}
+.itemInfo {
+    display: flex;
+    justify-content : space-between;
+}
+.buttons {
+    display:flex;
+    justify-content : space-between;
+}
